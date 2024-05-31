@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 			
 		
 			
-            
+            // CHECKING COMMANS
     };
 	@Override
 	public void configure(AuthenticationManagerBuilder auth) throws Exception 
