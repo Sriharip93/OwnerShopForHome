@@ -52,6 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 			
             // CHECKING COMMANS
     };
+	//fefjaefafaodsf
 	@Override
 	public void configure(AuthenticationManagerBuilder auth) throws Exception 
 	{
@@ -59,7 +60,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		auth.inMemoryAuthentication()
 		.withUser(User.withUsername("owner1").password(pwe.encode("owner123")).roles("owner"));	
 	}
-	
+	//gdsghg
 	@Bean
 	public PasswordEncoder getEncoder()
 	{
